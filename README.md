@@ -16,7 +16,7 @@ For PCA, the data matrix to work with is Xtrain. Project each data point onto th
 spanned by the first k principal components where k is relatively small (e.g. 100). Recall that
 the variance of the data set along the i^th principal component is σ_2^i, σi being the i
 th singular value. Since SVM uses distances, we would like all dimensions to have the same “scale”. To
-this end, scale the coordinates of the projected data along ith principal component vector by 1 σ_i
+this end, scale the coordinates of the projected data along ith principal component vector by 1/σ_i
 so that the variance along each dimension is the same ( it is 1/N where N is the number
 of data points).
 
